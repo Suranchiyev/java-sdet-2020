@@ -26,6 +26,5 @@ public class MultipleBirths {
 			System.out.println("I don't believe you");
 			break;
 		}
-		// BREAK till 11:10 AM EST
 	}
 }
