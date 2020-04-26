@@ -44,5 +44,4 @@ public class GroceryStore {
 		
 		return price;
 	}
-	// LUNCH 1:02 PM EST
 }
