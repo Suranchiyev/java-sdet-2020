@@ -52,7 +52,26 @@ public class Assignments {
 	 * Sun - Java epic day!
 	 */
 	public static void myWeek(DayOfWeek day) {
-		// TODO your code goes here
-		// Use switch
+		switch(day) {
+		case Mon:
+			System.out.println("Home work day!");
+			break;
+		case Tue:
+		case Thur:
+			System.out.println("Study day!");
+			break;
+		case Wed:
+			System.out.println("Chill day!");
+			break;
+		case Fri:
+			System.out.println("Coding day!");
+			break;
+		case Sat:
+		case Sun:
+			System.out.println("Java epic day!");
+			break;
+		default:
+			System.out.println("Invalid day");
+		}
 	}
 }
