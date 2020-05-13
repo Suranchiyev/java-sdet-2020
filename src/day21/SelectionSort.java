@@ -19,7 +19,9 @@ public class SelectionSort {
 	
 	public static void selectionSort(int[] num) {
 		for(int i = 0; i < num.length; i++) {
+			//                                   1
 			int smallestIndex = getSmallestIndex(i, num);
+			
 			swapElements(i, smallestIndex, num);
 		}
 	}
