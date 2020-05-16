@@ -44,7 +44,23 @@ public class Assignment {
 		// compare if they are equal if yes return true
 		// otherwise return false
 		
+		// convert to char[]
+		char[] strArr = str.toCharArray();
+		char[] strOneArr = strOne.toCharArray();
 		
-		return false;
+		//sort
+		Arrays.sort(strArr);
+		Arrays.sort(strOneArr);
+				
+//		int lenght = strArr.length > strOneArr.length ? strArr.length : strOneArr.length;
+//		
+//		for(int i = 0; i < lenght; i++) {
+//			//        1               1
+//			if(strArr[i] != strOneArr[i]) {
+//				return false;
+//			}
+//		}
+		 
+		return Arrays.equals(strArr, strOneArr);
 	}
 }
