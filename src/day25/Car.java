@@ -1,9 +1,12 @@
 package day25;
 
+import java.lang.String;
 import java.util.ArrayList;
 
 public class Car {
 	public static void main(String[] args) {
+		String str = "";
+		
 		ArrayList<String> cars = new ArrayList<>();
 		cars.add("BMW");
 		cars.add("Ford");
