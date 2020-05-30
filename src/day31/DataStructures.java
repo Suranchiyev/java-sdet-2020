@@ -14,9 +14,7 @@ import java.util.TreeMap;
 import java.util.TreeSet;
 
 public class DataStructures {
-	public static void main(String[] args) {
-		// LUNCH BREAK TILL 1 pm
-		
+	public static void main(String[] args) {	
 		String[] nameArr = new String[3];
 		// nameArr[2];
 		// Array is fixed size collection of data
