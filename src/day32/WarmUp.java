@@ -1,5 +1,7 @@
 package day32;
 
+import day33.Person;
+
 public class WarmUp {
 	public static void main(String[] args) {
 		String str = "hi my name is John";
@@ -13,7 +15,6 @@ public class WarmUp {
 		// 2. Loop over array from the back to start
 		// 3. Put into another variable separated by space
 		// 4. return that variable
-
 	}
 
 	public static String revSentence(String str) {

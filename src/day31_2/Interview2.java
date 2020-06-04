@@ -3,6 +3,7 @@ package day31_2;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
+
 public class Interview2 {
 	public static void main(String[] args) {
 		String str = "hello";
@@ -22,6 +23,7 @@ public class Interview2 {
 		System.out.println(removeDup2("aaaaa"));
 		// Set 
 		// contains()
+	
 	}
 	
 	public static String removeDup(String str) {
