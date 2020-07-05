@@ -10,6 +10,7 @@ public class Anagram {
 		System.out.println(isAnagram2("listen", "silent"));
 		System.out.println(isAnagram2("abc", "ccb"));
 		System.out.println(isAnagram2("abc", "bcaa"));
+		System.out.println(isAnagram2("aaaacc", "aacccc"));
 		System.out.println(isAnagram2("triangle", "integral"));
 	}
 	
@@ -41,6 +42,7 @@ public class Anagram {
 		if(str.length() != str1.length()) {
 			return false;
 		}
+		
 		
 		for(int i = 0; i < str.length(); i++) {
 			String letter = String.valueOf(str.charAt(i));

@@ -5,7 +5,10 @@ import java.time.Instant;
 
 public class RuntimeStopwatch {
 	public static void main(String[] args) {
-		print1000();
+		System.out.println(-5437 / 10);
+		System.out.println(-3457 % 10);
+		
+		//print1000();
 	}
 	
 	public static void print1000() {

@@ -12,7 +12,7 @@ public class ReverseChallenges {
 		reverseArr(arrNum);
 		System.out.println(Arrays.toString(arrNum));
 		
-		System.out.println(revWords("apple banana kiwi!"));
+		System.out.println(revWords("apple"));
 		
 		System.out.println(revEachWord("apple banana kiwi"));
 	}
